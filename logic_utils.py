@@ -1,6 +1,6 @@
 # FIX: All four functions were moved here from app.py using AI (Claude) agent mode.
 # I reviewed every change; bug fixes are marked with FIX comments below.
-
+ 
 
 def get_range_for_difficulty(difficulty: str):
     """Return (low, high) inclusive range for a given difficulty."""
