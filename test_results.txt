@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform -- Python 3, pytest
+cachedir: .pytest_cache
+rootdir: .
+plugins: anyio-4.15.1
+collecting ... collected 8 items
+
+tests/test_game_logic.py::test_winning_guess PASSED                      [ 12%]
+tests/test_game_logic.py::test_guess_too_high PASSED                     [ 25%]
+tests/test_game_logic.py::test_guess_too_low PASSED                      [ 37%]
+tests/test_game_logic.py::test_single_digit_guess_vs_two_digit_secret PASSED [ 50%]
+tests/test_game_logic.py::test_wrong_guesses_always_lose_points PASSED   [ 62%]
+tests/test_game_logic.py::test_win_on_first_attempt_scores_90 PASSED     [ 75%]
+tests/test_game_logic.py::test_parse_guess_rejects_bad_input PASSED      [ 87%]
+tests/test_game_logic.py::test_difficulty_ranges PASSED                  [100%]
+
+============================== 8 passed in 0.04s ===============================
