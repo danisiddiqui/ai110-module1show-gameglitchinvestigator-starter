@@ -1,7 +1,7 @@
 import random
 import streamlit as st
 
-# FIX: game logic was refactored out of this file into logic_utils.py with AI (Claude).
+# FIX: game logic was refactored out of this file into logic_utils.py with AI (Claude). 
 from logic_utils import get_range_for_difficulty, parse_guess, check_guess, update_score
 
 
