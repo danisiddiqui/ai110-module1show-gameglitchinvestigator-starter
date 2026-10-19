@@ -1,6 +1,6 @@
 from logic_utils import check_guess, parse_guess, update_score, get_range_for_difficulty
 
-# Starter tests, updated: check_guess returns (outcome, message), not just outcome.
+# Starter tests, updated: check_guess returns (outcome, message), not just outcome. 
 
 def test_winning_guess():
     # If the secret is 50 and guess is 50, it should be a win
