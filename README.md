@@ -7,7 +7,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 - You can't win.
 - The hints lie to you.
-- The secret number seems to have commitment issues.
+- The secret number seems to have commitment issues. 
 
 ## 🛠️ Setup
 
